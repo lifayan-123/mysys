@@ -1,0 +1,11 @@
+#!/bin/sh /etc/rc.common
+START=90
+start(){
+        /root/tcp.py
+}
+stop(){
+        /root/tcp.py -s
+}
+restart(){
+       /root/tcp.py
+}
